@@ -21,4 +21,5 @@ test('predict correct values of conversion', () => {
 
   // assert
   expect(getByTestId("out").textContent).toEqual("10 EUR")
+
 })
